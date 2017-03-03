@@ -8,11 +8,4 @@ public class MilitaryShip extends Ship{
             super(n, l, s, e, stealth);
         }
 
-        public void checkIfSunk() {
-            if (length == counter)
-                isSunk(true);
-            else
-                isSunk(false);
-        }
-
 }
